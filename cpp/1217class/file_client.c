@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
 		fwrite((void*)buf, 1, read_cnt, fp);
 	
 	puts("Received file data");
-	write(sd, "kill you!", 10);
+	write(sd, "Dare you!", 10);
 	fclose(fp);
 	close(sd);
 	return 0;
