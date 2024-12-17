@@ -1,0 +1,3180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>679</width>
+    <height>847</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>681</width>
+      <height>801</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(246, 211, 45);</string>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QPushButton" name="btn_inside">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>660</y>
+        <width>321</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>매장에서 먹어요</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_takeout">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>660</y>
+        <width>321</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>포장해서 갈게요</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>681</width>
+        <height>651</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../다운로드/우리차_mo_더본수정.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>681</width>
+        <height>651</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <property name="tabBarAutoHide">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="tab_coffee">
+       <attribute name="title">
+        <string>커피(COFFEE)</string>
+       </attribute>
+       <widget class="QPushButton" name="btn_ice_coffee">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>20</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/빽다방/커피/ICED-앗메리카노-450x588.png</normaloff>../../다운로드/빽다방/커피/ICED-앗메리카노-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>220</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ice_coffee">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>250</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>(ICE) 아메리카노</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="ice_coffee_price">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>280</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 2,000</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_hot_coffee">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>250</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>(HOT) 아메리카노</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_hot_coffee">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>20</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/빽다방/커피/HOT-앗메리카노-450x588.png</normaloff>../../다운로드/빽다방/커피/HOT-앗메리카노-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>220</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="hot_coffee_price">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>280</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 1,500</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="ice_latte_price">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>280</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 3,000</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ice_latte">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>250</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>(ICE) 빽's 카페라떼</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_ice_latte">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>20</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/빽다방/커피/빽s-라떼ICED-450x588.png</normaloff>../../다운로드/빽다방/커피/빽s-라떼ICED-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>220</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_hot_latte">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>540</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>(HOT) 빽's 카페라떼</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_hot_vanilla">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>310</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/빽다방/커피/HOT-바닐라라떼-1-450x588.png</normaloff>../../다운로드/빽다방/커피/HOT-바닐라라떼-1-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>220</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_hot_latte">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>310</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/빽다방/커피/HOT-빽s라떼-450x588.png</normaloff>../../다운로드/빽다방/커피/HOT-빽s라떼-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>220</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="ice_vanilla_price">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>570</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 3,700</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="hot_vanilla_price">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>570</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 3,700</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_hot_vanilla">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>540</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>(HOT) 바닐라라떼</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ice_vanilla">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>540</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>(ICE) 바닐라라떼</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_ice_vanilla">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>310</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/빽다방/커피/ICED-바닐라라떼-450x588.png</normaloff>../../다운로드/빽다방/커피/ICED-바닐라라떼-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>220</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="hot_latte_price">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>570</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 3,000</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_noncoffee">
+       <attribute name="title">
+        <string>음료(NON COFFEE)</string>
+       </attribute>
+       <widget class="QLabel" name="ice_ade_price">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>570</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 4,000</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ice_ssangtea">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>250</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>(ICE) 쌍화차</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_ice_ssangtea">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>20</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/쌍화차_ICED-450x588.jpg</normaloff>../../다운로드/쌍화차_ICED-450x588.jpg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>215</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ade">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>540</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>(ICE) 청포도에이드</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_ice_daechutea">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>20</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/대추차_ICED-450x588.jpg</normaloff>../../다운로드/대추차_ICED-450x588.jpg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>215</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="hot_daechutea_price">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>570</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 3,000</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_hot_ssangtea">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>20</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/쌍화차_HOT-450x588.jpg</normaloff>../../다운로드/쌍화차_HOT-450x588.jpg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>215</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_ade">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>310</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/청포도에이드-450x588.png</normaloff>../../다운로드/청포도에이드-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>220</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_misutgaru">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>540</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>(ICE) 미숫가루</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="misutgaru_price">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>570</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 2,700</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_misutgaru">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>310</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/미숫가루-450x588.png</normaloff>../../다운로드/미숫가루-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>220</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="ice_ssangtea_price">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>280</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 3,000</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ice_daechutea">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>250</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>(ICE) 대추차</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_hot_ssangtea">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>250</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>(HOT) 쌍화차</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_hot_daechutea">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>540</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>(HOT) 대추차</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="ice_daechutea_price">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>280</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 3,000</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_hot_daechutea">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>310</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/대추차_HOT-450x588.jpg</normaloff>../../다운로드/대추차_HOT-450x588.jpg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>215</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="hot_ssangtea_price">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>280</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 3,000</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_blended">
+       <attribute name="title">
+        <string>스무디(BLENDED)</string>
+       </attribute>
+       <widget class="QPushButton" name="btn_ggal">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>310</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/빽다방/음료/깔라만시스무디-450x588.png</normaloff>../../다운로드/빽다방/음료/깔라만시스무디-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>220</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lime_price">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>570</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 4,000</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_blueberry">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>250</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>블루베리요거트스무디</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="mango_price">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>570</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 4,000</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_plain">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>250</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>플레인요거트스무디</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_strawberry">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>20</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/딸기요거트스무디-2-450x588.png</normaloff>../../다운로드/딸기요거트스무디-2-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>220</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ggal">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>540</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>깔라만시스무디</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_lime">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>310</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/빽다방/음료/쿨라임스무디-450x588.png</normaloff>../../다운로드/빽다방/음료/쿨라임스무디-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>220</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_blueberry">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>20</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/블루베리요거트스무디-450x588.png</normaloff>../../다운로드/블루베리요거트스무디-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>220</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="strawberry_price">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>280</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 4,300</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_strawberry">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>250</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>딸기요거트스무디</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_mango">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>310</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/빽다방/음료/망고패션스무디_thumb-450x588.png</normaloff>../../다운로드/빽다방/음료/망고패션스무디_thumb-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>220</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="blueberry_price">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>280</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 5,300</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_plain">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>20</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/플레인요거트스무디-450x588.png</normaloff>../../다운로드/플레인요거트스무디-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>220</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_mango">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>540</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>망고패션스무디</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_lime">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>540</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>쿨라임스무디</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="plain_price">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>280</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 3,500</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="ggal_price">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>570</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 4,000</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_dessert">
+       <attribute name="title">
+        <string>빽스치노(PALK's)</string>
+       </attribute>
+       <widget class="QPushButton" name="btn_sand">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>310</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/빽다방/빽스치노/완전초코바나나-BASIC-450x588.png</normaloff>../../다운로드/빽다방/빽스치노/완전초코바나나-BASIC-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>215</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="sausage_price">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>570</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 3,800</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_salad">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>250</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>원조 빽스치노</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="burn_price">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>570</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 3,800</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_shu">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>250</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>완전 초코 빽스치노</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_icecream">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>20</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/빽다방/빽스치노/완전딸기빽스치노-BASIC-450x588.png</normaloff>../../다운로드/빽다방/빽스치노/완전딸기빽스치노-BASIC-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>220</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_sand">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>540</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>완전 초코바나나 빽스치노</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_sausage">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>310</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/빽다방/빽스치노/쿠키크런치빽스치노-BASIC-450x588.png</normaloff>../../다운로드/빽다방/빽스치노/쿠키크런치빽스치노-BASIC-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>220</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_salad">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>20</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/빽다방/빽스치노/원조빽스치노-BASIC-450x588.png</normaloff>../../다운로드/빽다방/빽스치노/원조빽스치노-BASIC-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>220</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="icecream_price">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>280</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 3,500</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_icecream">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>250</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>완전 딸기 빽스치노</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_burn">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>310</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/빽다방/빽스치노/민트초코빽스치노-BASIC-450x588.png</normaloff>../../다운로드/빽다방/빽스치노/민트초코빽스치노-BASIC-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>215</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="salad_price">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>280</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 3,300</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_shu">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>20</y>
+          <width>169</width>
+          <height>220</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../다운로드/빽다방/빽스치노/완전초코빽스치노-BASIC-450x588.png</normaloff>../../다운로드/빽다방/빽스치노/완전초코빽스치노-BASIC-450x588.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>169</width>
+          <height>220</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_burn">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>540</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>민트초코 빽스치노</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_sausage">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>540</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>쿠키크런치 빽스치노</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="shu_price">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>280</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 3,500</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="sand_price">
+        <property name="geometry">
+         <rect>
+          <x>255</x>
+          <y>570</y>
+          <width>169</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>₩ 3,500</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QListWidget" name="basket">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>700</y>
+        <width>224</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(222, 221, 218);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_payment">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>700</y>
+        <width>121</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>결제</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_home">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>51</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../다운로드/home.png</normaloff>../../다운로드/home.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>51</width>
+        <height>51</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>631</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Ubuntu Sans</family>
+        <pointsize>25</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(249, 240, 107);</string>
+      </property>
+      <property name="text">
+       <string>빽다방에 오신 것을 환영합니다!</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="basket_option">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>700</y>
+        <width>220</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(222, 221, 218);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_cancel">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>700</y>
+        <width>121</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>선택 취소</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>681</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>35</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string> 토 핑   추 가</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>130</y>
+        <width>681</width>
+        <height>671</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>50</y>
+         <width>211</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>샷 추가</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>480</y>
+         <width>131</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>30</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>수량</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>50</y>
+         <width>101</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>25</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>₩ 500</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>140</y>
+         <width>101</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>25</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>₩ 500</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>140</y>
+         <width>211</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>헤이즐넛 시럽</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>230</y>
+         <width>161</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>25</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>₩ 1,200</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>230</y>
+         <width>211</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>펄 추가</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>320</y>
+         <width>101</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>25</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>₩ 0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_16">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>320</y>
+         <width>211</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>연하게 (1샷만)</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_18">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>410</y>
+         <width>101</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>25</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>₩ 800</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_19">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>410</y>
+         <width>211</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>아이스크림 토핑</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_price_result">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>490</y>
+         <width>271</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_shot">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>60</y>
+         <width>101</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::PlusMinus</enum>
+       </property>
+       <property name="maximum">
+        <number>5</number>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_syrup">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>150</y>
+         <width>101</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::PlusMinus</enum>
+       </property>
+       <property name="maximum">
+        <number>5</number>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_pall">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>240</y>
+         <width>101</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::PlusMinus</enum>
+       </property>
+       <property name="maximum">
+        <number>2</number>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_1shot">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>330</y>
+         <width>101</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::PlusMinus</enum>
+       </property>
+       <property name="maximum">
+        <number>1</number>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_icetoping">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>420</y>
+         <width>101</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::PlusMinus</enum>
+       </property>
+       <property name="maximum">
+        <number>1</number>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_excount">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>490</y>
+         <width>101</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::PlusMinus</enum>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="value">
+        <number>1</number>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="btn_choose_cancel">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>700</y>
+        <width>211</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>취소</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_choose_complete">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>700</y>
+        <width>211</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>선택 완료</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>30</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>선택 메뉴 : </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_choose_menu">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>30</y>
+        <width>121</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>000000000000</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_choose_price">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>85</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>0000</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>90</y>
+        <width>16</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>₩</string>
+      </property>
+     </widget>
+     <zorder>label_3</zorder>
+     <zorder>widget</zorder>
+     <zorder>btn_choose_cancel</zorder>
+     <zorder>btn_choose_complete</zorder>
+     <zorder>label_6</zorder>
+     <zorder>label_choose_menu</zorder>
+     <zorder>label_8</zorder>
+     <zorder>label_choose_price</zorder>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QListWidget" name="total_result">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>641</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_undo">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>670</y>
+        <width>191</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(205, 171, 143);</string>
+      </property>
+      <property name="text">
+       <string>이전 화면으로</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_home_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>51</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../다운로드/home.png</normaloff>../../다운로드/home.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>51</width>
+        <height>51</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>631</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>최종 결제 목록</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_final_payment">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>670</y>
+        <width>191</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(28, 113, 216);</string>
+      </property>
+      <property name="text">
+       <string>결제</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_input_stampnumber">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>270</y>
+        <width>281</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(53, 132, 228);
+border-radius:20px;
+border:3px solid rgb(255,255,255)</string>
+      </property>
+      <property name="text">
+       <string>스탬프 조회</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="input_stampnumber">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>270</y>
+        <width>341</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:20px;
+border:3px solid rgb(0,0,0)</string>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>530</y>
+        <width>681</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QListWidget" name="real_total_result">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>641</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>18</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QSpinBox" name="spinBox_stamp_value">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>440</y>
+        <width>71</width>
+        <height>61</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_use_stamp">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>440</y>
+        <width>88</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>사용</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="show_stampcount">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>440</y>
+        <width>451</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_5">
+     <widget class="QPushButton" name="btn_number7">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>150</y>
+        <width>100</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);
+color: rgb(0, 0, 0);
+border-radius:20px;
+border:3px solid rgb(0,0,0)</string>
+      </property>
+      <property name="text">
+       <string>7</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_number9">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>150</y>
+        <width>100</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);
+color: rgb(0, 0, 0);
+border-radius:20px;
+border:3px solid rgb(0,0,0)</string>
+      </property>
+      <property name="text">
+       <string>9</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_number5">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>270</y>
+        <width>100</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);
+color: rgb(0, 0, 0);
+border-radius:20px;
+border:3px solid rgb(0,0,0)</string>
+      </property>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_number4">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>270</y>
+        <width>100</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);
+color: rgb(0, 0, 0);
+border-radius:20px;
+border:3px solid rgb(0,0,0)</string>
+      </property>
+      <property name="text">
+       <string>4</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_number8">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>150</y>
+        <width>100</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);
+color: rgb(0, 0, 0);
+border-radius:20px;
+border:3px solid rgb(0,0,0)</string>
+      </property>
+      <property name="text">
+       <string>8</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_number1">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>390</y>
+        <width>100</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);
+color: rgb(0, 0, 0);
+border-radius:20px;
+border:3px solid rgb(0,0,0)</string>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_number6">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>270</y>
+        <width>100</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);
+color: rgb(0, 0, 0);
+border-radius:20px;
+border:3px solid rgb(0,0,0)</string>
+      </property>
+      <property name="text">
+       <string>6</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_number0">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>510</y>
+        <width>100</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);
+color: rgb(0, 0, 0);
+border-radius:20px;
+border:3px solid rgb(0,0,0)</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_number3">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>390</y>
+        <width>100</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);
+color: rgb(0, 0, 0);
+border-radius:20px;
+border:3px solid rgb(0,0,0)</string>
+      </property>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_number2">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>390</y>
+        <width>100</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);
+color: rgb(0, 0, 0);
+border-radius:20px;
+border:3px solid rgb(0,0,0)</string>
+      </property>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_delete_all">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>510</y>
+        <width>100</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);
+color: rgb(0, 0, 0);
+border-radius:20px;
+border:3px solid rgb(0,0,0)</string>
+      </property>
+      <property name="text">
+       <string>전체 지우기</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_delete_number">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>510</y>
+        <width>100</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);
+color: rgb(0, 0, 0);
+border-radius:20px;
+border:3px solid rgb(0,0,0)</string>
+      </property>
+      <property name="text">
+       <string>지우기</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>201</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(53, 132, 228);</string>
+      </property>
+      <property name="text">
+       <string>스탬프 적립</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_stamp_pass">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>660</y>
+        <width>281</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);
+color: rgb(0, 0, 0);
+border-radius:20px;
+border:3px solid rgb(0,0,0)</string>
+      </property>
+      <property name="text">
+       <string>건너뛰기</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_stamp_complete">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>660</y>
+        <width>281</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);
+color: rgb(0, 0, 0);
+border-radius:20px;
+border:3px solid rgb(0,0,0)</string>
+      </property>
+      <property name="text">
+       <string>적립</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="stampnumber_list">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>0</y>
+        <width>481</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_6">
+     <widget class="QPushButton" name="last_page_home">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>655</y>
+        <width>341</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+border:3px solid rgb(0,0,255)</string>
+      </property>
+      <property name="text">
+       <string>처음으로</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="last_page_plus">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>655</y>
+        <width>341</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+border:3px solid rgb(0,0,255)</string>
+      </property>
+      <property name="text">
+       <string>추가 결제하기</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_ordernumber">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>160</y>
+        <width>501</width>
+        <height>451</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>80</y>
+        <width>501</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(98, 160, 234);</string>
+      </property>
+      <property name="text">
+       <string>주문번호</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Takeout_or_Inside">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>230</y>
+        <width>111</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(53, 132, 228);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <zorder>last_page_home</zorder>
+     <zorder>last_page_plus</zorder>
+     <zorder>label_20</zorder>
+     <zorder>label_ordernumber</zorder>
+     <zorder>Takeout_or_Inside</zorder>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>679</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
